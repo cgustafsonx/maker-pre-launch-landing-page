@@ -3,8 +3,8 @@ import Header from "../components/Header/index";
 
 export default function Home() {
   return (
-    <Header className="header">
-      <Logo image="./assets/logo.svg" alt="logo" className="logo" />
+    <Header>
+      <Logo image="./assets/logo.svg" alt="logo" />
     </Header>
     // Get paid for the work you love to do. The 9-5 grind is so last century.
     // We believe in living life on your own terms. Whether you’re looking to

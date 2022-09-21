@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   font-family: "Manrope", sans-serif;
 }
 
@@ -23,28 +23,7 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
   background-color: var(--clr-primary-black);
   color: var(--clr-secondary-white);
-}
-
-.header {
-  display: flex;
-  justify-content: left;
-}
-
-@media only screen and (max-width: 800px) {
-  .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-  }
-  .header {
-    display: flex;
-    background-color: gold;
-    justify-content: center;
-  }
 }

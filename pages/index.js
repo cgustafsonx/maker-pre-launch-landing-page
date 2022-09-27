@@ -1,14 +1,35 @@
 import Logo from "../components/Logo/index";
 import Header from "../components/Header/index";
+import Icon from "../components/Icon/index";
+import Image from "../components/Image/index";
+import Hero from "../components/Hero/index";
+import HeroContainer from "../components/HeroContainer/index";
+import Title from "../components/Title/index";
+import Paragraph from "../components/Paragraph/index";
+import Highlight from "../components/Highlight/index";
 
 export default function Home() {
   return (
-    <Header>
-      <Logo image="./assets/logo.svg" alt="logo" />
-    </Header>
-    // Get paid for the work you love to do. The 9-5 grind is so last century.
-    // We believe in living life on your own terms. Whether you’re looking to
-    // escape the rat race or set up a side hustle, we’ve got you covered.
+    <>
+      <Header>
+        <Logo img="./assets/logo.svg" />
+      </Header>
+      <Hero>
+        <HeroContainer>
+          <Title>
+            Get paid for the work you <Highlight>love </Highlight>
+            to do.
+          </Title>
+          <Paragraph>
+            The 9-5 grind is so last century. We believe in living life on your
+            own terms. Whether you’re looking to escape the rat race or set up a
+            side hustle, we’ve got you covered.
+          </Paragraph>
+          <Icon img="./assets/icon-scroll.svg" />
+        </HeroContainer>
+      </Hero>
+    </>
+
     // Indulge your passions Your passions shouldn't be just for the weekend.
     // Earn a living doing what you love. Gain financial freedom Start making
     // money work for you. There’s nothing quite like earning while you sleep.

@@ -6,7 +6,7 @@ export default function Logo(props) {
 
   return (
     <div>
-      <img src={props.image} className={className} />
+      <img src={props.img} alt="logo" className={className} />
     </div>
   );
 }

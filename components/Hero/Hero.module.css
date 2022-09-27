@@ -1,0 +1,31 @@
+.hero {
+  background-image: url(/assets/illustration-hero-mobile.png);
+  background-repeat: repeat-x;
+  background-position: top center;
+  background-size: auto 233px;
+  margin-top: 65px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    background-image: url(/assets/illustration-hero-left.svg),
+      url(/assets/illustration-hero-right.svg),
+      url(/assets/bg-hero-squiggle.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center left -25%, center right -25%, center;
+    background-size: 314px 356px, 317px 356px, 386px 268px;
+    height: 360px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .hero {
+    background-image: url(/assets/illustration-hero-left.svg),
+      url(/assets/illustration-hero-right.svg),
+      url(/assets/bg-hero-squiggle.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center left -30%, center right -30%, center 10%;
+    background-size: 408px 459px, 408px 459px, 544px 377px;
+    height: 460px;
+  }
+}

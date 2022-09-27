@@ -1,0 +1,26 @@
+.title {
+  color: white;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 280px;
+  width: 240px;
+}
+
+@media only screen and (min-width: 768px) {
+  .title {
+    margin-top: 60px;
+    width: 325px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .title {
+    margin-top: 100px;
+    width: 500px;
+    font-size: 48px;
+    line-height: 56px;
+  }
+}

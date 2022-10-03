@@ -1,12 +1,17 @@
 import Logo from "../components/Logo/index";
 import Header from "../components/Header/index";
 import Icon from "../components/Icon/index";
-import Image from "../components/Image/index";
 import Hero from "../components/Hero/index";
 import HeroContainer from "../components/HeroContainer/index";
 import Title from "../components/Title/index";
 import Paragraph from "../components/Paragraph/index";
 import Highlight from "../components/Highlight/index";
+import FeatureContainer from "../components/FeatureContainer/index";
+import FeatureContent from "../components/FeatureContainer/FeatureContent/index";
+import FeatureImage from "../components/FeatureContainer/FeatureImage/index";
+import FeatureTitle from "../components/FeatureContainer/FeatureTitle/index";
+import FeatureText from "../components/FeatureContainer/FeatureText/index";
+import MiddleContainer from "../components/MiddleContainer";
 
 export default function Home() {
   return (
@@ -28,22 +33,46 @@ export default function Home() {
           <Icon img="./assets/icon-scroll.svg" />
         </HeroContainer>
       </Hero>
+      <FeatureContainer>
+        <FeatureImage img="/assets/illustration-passions.svg" />
+        <FeatureContent>
+          <FeatureTitle>Indulge your passions</FeatureTitle>
+          <FeatureText>
+            Your passions shouldn't be just for the weekend. Earn a living doing
+            what you love.
+          </FeatureText>
+        </FeatureContent>
+      </FeatureContainer>
+      <FeatureContainer>
+        <FeatureImage img="/assets/illustration-financial-freedom.svg" />
+        <FeatureContent>
+          <FeatureTitle>Gain financial freedom</FeatureTitle>
+          <FeatureText>
+            Start making money work for you. There’s nothing quite like earning
+            while you sleep.
+          </FeatureText>
+        </FeatureContent>
+      </FeatureContainer>
+      <FeatureContainer>
+        <FeatureImage img="/assets/illustration-lifestyle.svg" />
+        <FeatureContent>
+          <FeatureTitle>Choose your lifestyle</FeatureTitle>
+          <FeatureText>
+            Own your daily schedule. Fancy a lie-in? Go for it! Take charge of
+            your week.
+          </FeatureText>
+        </FeatureContent>
+      </FeatureContainer>
+      <FeatureContainer>
+        <FeatureImage img="/assets/illustration-work-anywhere.svg" />
+        <FeatureContent>
+          <FeatureTitle>Work from anywhere</FeatureTitle>
+          <FeatureText>
+            Selling online means not being pinned down. Want to work AND travel?
+            Go for it!
+          </FeatureText>
+        </FeatureContent>
+      </FeatureContainer>
     </>
-
-    // Indulge your passions Your passions shouldn't be just for the weekend.
-    // Earn a living doing what you love. Gain financial freedom Start making
-    // money work for you. There’s nothing quite like earning while you sleep.
-    // Choose your lifestyle Own your daily schedule. Fancy a lie-in? Go for
-    // it! Take charge of your week. Work from anywhere Selling online means
-    // not being pinned down. Want to work AND travel? Go for it! Our pricing
-    // plans We only make money when our creators make money. Our plans are
-    // always affordable, and it’s completely free to get started. Dip your toe
-    // Just getting started? No problem at all! Our free plan will take you a
-    // long way. Free Unlimited products Basic analytics Limited marketplace
-    // exposure 10% fee per transaction Dive right in Ready for the big time?
-    // Our paid plan will help you take your business to the next level. $25.00
-    // /month Custom domain Advanced analytics and reports High marketplace
-    // visibility 5% fee per transaction Get notified when we launch Email
-    // address Get notified
   );
 }

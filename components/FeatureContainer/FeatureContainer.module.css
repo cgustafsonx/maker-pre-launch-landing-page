@@ -1,0 +1,16 @@
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 144px;
+  margin: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  .feature {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+  }
+}

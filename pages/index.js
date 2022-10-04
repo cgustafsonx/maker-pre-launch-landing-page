@@ -11,7 +11,6 @@ import FeatureContent from "../components/FeatureContainer/FeatureContent/index"
 import FeatureImage from "../components/FeatureContainer/FeatureImage/index";
 import FeatureTitle from "../components/FeatureContainer/FeatureTitle/index";
 import FeatureText from "../components/FeatureContainer/FeatureText/index";
-import MiddleContainer from "../components/MiddleContainer";
 
 export default function Home() {
   return (

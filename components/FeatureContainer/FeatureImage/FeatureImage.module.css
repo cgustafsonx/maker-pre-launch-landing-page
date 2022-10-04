@@ -6,4 +6,16 @@
   height: 124px;
   background-color: var(--clr-secondary-blue);
   border-radius: 40px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    margin-right: 25px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+  }
 }

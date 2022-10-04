@@ -3,13 +3,18 @@
   color: #777f98;
   font-size: 15px;
   line-height: 25px;
-  width: 327px;
   margin-top: 11px;
+  width: 327px;
 }
 
 @media only screen and (min-width: 768px) {
   .featuretext {
     text-align: left;
-    margin-left: 50px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .featuretext {
+    width: 154px;
   }
 }

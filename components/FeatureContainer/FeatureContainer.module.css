@@ -3,22 +3,25 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 144px;
+  margin: 56px;
 }
 
 @media only screen and (min-width: 768px) {
   .feature {
     display: flex;
     flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 50px;
-    margin-top: 161px;
+    width: auto;
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   .feature {
     display: inline-block;
-    align-items: flex-start;
-    width: 154px;
+    margin-left: 165px;
+    width: 10%;
   }
 }

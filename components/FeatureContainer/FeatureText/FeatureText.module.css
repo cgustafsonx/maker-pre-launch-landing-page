@@ -1,6 +1,6 @@
 .featuretext {
+  color: var(--clr-secondary-grey);
   text-align: center;
-  color: #777f98;
   font-size: 15px;
   line-height: 25px;
   margin-top: 11px;
@@ -13,7 +13,7 @@
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   .featuretext {
     width: 154px;
   }

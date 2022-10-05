@@ -6,12 +6,10 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .content {
-    align-items: flex-start;
-  }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   .content {
+    width: 150px;
   }
 }

@@ -1,15 +1,16 @@
 .icon {
   margin-top: 32px;
+  margin-bottom: 144px;
 }
 
 @media only screen and (min-width: 768px) {
   .icon {
-    margin-top: 32px;
+    margin-bottom: 161px;
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   .icon {
-    margin-top: 64px;
+    margin-bottom: 272px;
   }
 }

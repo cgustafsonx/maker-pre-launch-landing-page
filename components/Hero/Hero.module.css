@@ -18,7 +18,7 @@
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   .hero {
     background-image: url(/assets/illustration-hero-left.svg),
       url(/assets/illustration-hero-right.svg),

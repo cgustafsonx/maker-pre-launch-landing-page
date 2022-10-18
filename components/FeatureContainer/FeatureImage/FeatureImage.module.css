@@ -17,7 +17,6 @@
 
 @media only screen and (min-width: 1440px) {
   .container {
-    margin-right: 25px;
-    width: auto;
+    margin-bottom: 25px;
   }
 }

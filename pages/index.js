@@ -11,6 +11,7 @@ import FeatureContent from "../components/FeatureContainer/FeatureContent/index"
 import FeatureImage from "../components/FeatureContainer/FeatureImage/index";
 import FeatureTitle from "../components/FeatureContainer/FeatureTitle/index";
 import FeatureText from "../components/FeatureContainer/FeatureText/index";
+import FeatureList from "../components/FeatureList";
 
 export default function Home() {
   return (
@@ -32,46 +33,48 @@ export default function Home() {
           <Icon img="./assets/icon-scroll.svg" />
         </HeroContainer>
       </Hero>
-      <FeatureContainer>
-        <FeatureImage img="/assets/illustration-passions.svg" />
-        <FeatureContent>
-          <FeatureTitle>Indulge your passions</FeatureTitle>
-          <FeatureText>
-            Your passions shouldn't be just for the weekend. Earn a living doing
-            what you love.
-          </FeatureText>
-        </FeatureContent>
-      </FeatureContainer>
-      <FeatureContainer>
-        <FeatureImage img="/assets/illustration-financial-freedom.svg" />
-        <FeatureContent>
-          <FeatureTitle>Gain financial freedom</FeatureTitle>
-          <FeatureText>
-            Start making money work for you. There’s nothing quite like earning
-            while you sleep.
-          </FeatureText>
-        </FeatureContent>
-      </FeatureContainer>
-      <FeatureContainer>
-        <FeatureImage img="/assets/illustration-lifestyle.svg" />
-        <FeatureContent>
-          <FeatureTitle>Choose your lifestyle</FeatureTitle>
-          <FeatureText>
-            Own your daily schedule. Fancy a lie-in? Go for it! Take charge of
-            your week.
-          </FeatureText>
-        </FeatureContent>
-      </FeatureContainer>
-      <FeatureContainer>
-        <FeatureImage img="/assets/illustration-work-anywhere.svg" />
-        <FeatureContent>
-          <FeatureTitle>Work from anywhere</FeatureTitle>
-          <FeatureText>
-            Selling online means not being pinned down. Want to work AND travel?
-            Go for it!
-          </FeatureText>
-        </FeatureContent>
-      </FeatureContainer>
+      <FeatureList>
+        <FeatureContainer align="odd">
+          <FeatureImage img="/assets/illustration-passions.svg" />
+          <FeatureContent>
+            <FeatureTitle>Indulge your passions</FeatureTitle>
+            <FeatureText>
+              Your passions shouldn't be just for the weekend. Earn a living
+              doing what you love.
+            </FeatureText>
+          </FeatureContent>
+        </FeatureContainer>
+        <FeatureContainer align="even">
+          <FeatureImage img="/assets/illustration-financial-freedom.svg" />
+          <FeatureContent>
+            <FeatureTitle>Gain financial freedom</FeatureTitle>
+            <FeatureText>
+              Start making money work for you. There’s nothing quite like
+              earning while you sleep.
+            </FeatureText>
+          </FeatureContent>
+        </FeatureContainer>
+        <FeatureContainer align="odd">
+          <FeatureImage img="/assets/illustration-lifestyle.svg" />
+          <FeatureContent>
+            <FeatureTitle>Choose your lifestyle</FeatureTitle>
+            <FeatureText>
+              Own your daily schedule. Fancy a lie-in? Go for it! Take charge of
+              your week.
+            </FeatureText>
+          </FeatureContent>
+        </FeatureContainer>
+        <FeatureContainer align="even">
+          <FeatureImage img="/assets/illustration-work-anywhere.svg" />
+          <FeatureContent>
+            <FeatureTitle>Work from anywhere</FeatureTitle>
+            <FeatureText>
+              Selling online means not being pinned down. Want to work AND
+              travel? Go for it!
+            </FeatureText>
+          </FeatureContent>
+        </FeatureContainer>
+      </FeatureList>
     </>
   );
 }

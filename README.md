@@ -1,34 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### FRONTEND MENTOR | MAKER PRE LAUNCH LANDING PAGE
 
-## Getting Started
+### | Description | ###
 
-First, run the development server:
+Maker Pre Launch Landing Page @ Frontend Mentor.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Frontend Mentor url: https://www.frontendmentor.io/challenges/maker-prelaunch-landing-page-WVZIJtKLd
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A landing page with build with React Components.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Made use of FIGMA files to build up my HTML file with classes and id's.
+You can make use of their styleguide and create UTILITIES + VARIABLES fromt it. This gives an efficient workflow to your work.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Afterwards I've made it responsive with flexbox and media querries.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### | My Final Solution | ###
 
-## Learn More
+![my frontend mentor design](.../images/)
 
-To learn more about Next.js, take a look at the following resources:
+Toolbox: HTML + CSS + Javascript + React
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### | Evaluation | ###
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Learned new ways in this project to build something up from scratch and start with React/NextJS to create components and having their own css modules. 
+Working with components gives you a the power and control to edit every element by its own.
 
-## Deploy on Vercel
+Working with components are an great lifesafer to speed up my workflow and to keep my code clean!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+My next project will be an another one from Frontend Mentor, which I will starat in a reverse order, from mobile to desktop, so the responsive tweaks will go much easier! 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Happy coding!

@@ -15,8 +15,6 @@ Afterwards I've made it responsive with flexbox and media querries.
 
 ### | My Final Solution | ###
 
-![my frontend mentor design](.../images/)
-
 Toolbox: HTML + CSS + Javascript + React
 
 ### | Evaluation | ###

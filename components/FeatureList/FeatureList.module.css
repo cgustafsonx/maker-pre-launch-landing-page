@@ -20,5 +20,7 @@
     margin: auto;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    height: 400px;
   }
 }

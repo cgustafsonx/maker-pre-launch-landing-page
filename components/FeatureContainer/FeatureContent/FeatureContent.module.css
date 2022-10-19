@@ -4,3 +4,16 @@
   justify-content: center;
   align-items: center;
 }
+
+@media only screen and (min-width: 768px) {
+  .content {
+    display: block;
+    width: 65%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .content {
+    width: 100%;
+  }
+}

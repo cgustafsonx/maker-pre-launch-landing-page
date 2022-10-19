@@ -3,34 +3,42 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 56px;
   max-width: 350px;
-  margin-top: 160px;
+  margin-top: 32px;
 }
 
 @media only screen and (min-width: 768px) {
   .feature {
     display: flex;
     flex-direction: row;
-    display: flex;
     align-items: center;
     justify-content: center;
     max-width: 525px;
+    margin: 40px;
   }
-}
 
-.odd {
-  align-self: flex-end;
-}
+  .odd {
+    align-self: flex-end;
+  }
 
-.even {
-  align-self: flex-start;
+  .even {
+    align-self: flex-start;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
   .feature {
-    flex-direction: column;
-    max-width: 355px;
+    display: block;
+    max-width: 225px;
     width: 25%;
+    margin: 0;
+  }
+
+  .odd {
+    align-self: flex-start;
+  }
+
+  .even {
+    align-self: flex-end;
   }
 }

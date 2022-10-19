@@ -11,7 +11,7 @@ import FeatureContent from "../components/FeatureContainer/FeatureContent/index"
 import FeatureImage from "../components/FeatureContainer/FeatureImage/index";
 import FeatureTitle from "../components/FeatureContainer/FeatureTitle/index";
 import FeatureText from "../components/FeatureContainer/FeatureText/index";
-import FeatureList from "../components/FeatureList";
+import FeatureList from "../components/FeatureList/index";
 
 export default function Home() {
   return (
@@ -27,8 +27,8 @@ export default function Home() {
           </Title>
           <Paragraph>
             The 9-5 grind is so last century. We believe in living life on your
-            own terms. Whether you’re looking to escape the rat race or set up a
-            side hustle, we’ve got you covered.
+            own terms. Whether youre looking to escape the rat race or set up a
+            side hustle, weve got you covered.
           </Paragraph>
           <Icon img="./assets/icon-scroll.svg" />
         </HeroContainer>
@@ -39,7 +39,7 @@ export default function Home() {
           <FeatureContent>
             <FeatureTitle>Indulge your passions</FeatureTitle>
             <FeatureText>
-              Your passions shouldn't be just for the weekend. Earn a living
+              Your passions shouldnt be just for the weekend. Earn a living
               doing what you love.
             </FeatureText>
           </FeatureContent>
@@ -49,8 +49,8 @@ export default function Home() {
           <FeatureContent>
             <FeatureTitle>Gain financial freedom</FeatureTitle>
             <FeatureText>
-              Start making money work for you. There’s nothing quite like
-              earning while you sleep.
+              Start making money work for you. Theres nothing quite like earning
+              while you sleep.
             </FeatureText>
           </FeatureContent>
         </FeatureContainer>
